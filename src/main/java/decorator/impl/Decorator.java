@@ -25,9 +25,9 @@ public class Decorator implements Sourcable {
      */
     @Override
     public void operation() {
-        System.out.println("装饰器在方法之前");
+        System.out.println("在方法之前执行装饰器");
         sourcable.operation();
-        System.out.println("装饰器在方法之后");
+        System.out.println("在方法之后执行装饰器");
 
     }
 }

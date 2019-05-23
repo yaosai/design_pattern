@@ -9,6 +9,6 @@ import proxy.Runner;
 public class ManRunner implements Runner {
     @Override
     public void run() {
-        System.out.println("运动员在跑步...");
+        System.out.println("执行原始类方法");
     }
 }
