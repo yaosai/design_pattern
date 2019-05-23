@@ -17,6 +17,12 @@ public class Decorator implements Sourcable {
         this.sourcable = sourcable;
     }
 
+    /**
+     * 装饰模式中，装饰类对代理对象没有控制权，只能为其增加一层装饰，以加强被装饰对象的功能。
+     *
+     * @author YaoS
+     * @date 19/5/23 10:23
+     */
     @Override
     public void operation() {
         System.out.println("装饰器在方法之前");
