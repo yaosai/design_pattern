@@ -12,19 +12,19 @@ public class AbstractFactory {
      * 简单工厂反射调用
      *
      * @param c 对象类型
-     * @return Project
+     * @return Product
      * @author YaoS
      * @date 19/6/10 13:59
      */
-    private static Project runProject(Class c) {
-        Project project = null;
+    private static Product runProject(Class c) {
+        Product product = null;
         try {
-            project = (Project) Class.forName(c.getName()).newInstance();
+            product = (Product) Class.forName(c.getName()).newInstance();
         } catch (Exception e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
-        return project;
+        return product;
     }
 
     /**
@@ -34,9 +34,9 @@ public class AbstractFactory {
      * @date 19/6/10 13:59
      */
     public static void main(String[] args) {
-        Project projectA = AbstractFactory.runProject(ProjectA.class);
-        projectA.run();
-        Project projectB = AbstractFactory.runProject(ProjectB.class);
-        projectB.run();
+        Product productA = AbstractFactory.runProject(ProductA.class);
+        productA.run();
+        Product productB = AbstractFactory.runProject(ProductB.class);
+        productB.run();
     }
 }
