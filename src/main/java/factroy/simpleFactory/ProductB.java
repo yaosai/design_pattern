@@ -1,4 +1,4 @@
-package factroy.abstractfactory;
+package factroy.simpleFactory;
 
 /**
  * @author YaoS
