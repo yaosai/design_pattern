@@ -1,4 +1,4 @@
-package proxy;
+package proxy.staticproxy;
 
 /**
  * 代理模式接口

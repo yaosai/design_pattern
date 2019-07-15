@@ -1,7 +1,7 @@
-package proxy;
+package proxy.staticproxy;
 
-import proxy.impl.ManRunner;
-import proxy.impl.RunnerAgent;
+import proxy.staticproxy.impl.ManRunner;
+import proxy.staticproxy.impl.RunnerAgent;
 
 /**
  * @author YaoS

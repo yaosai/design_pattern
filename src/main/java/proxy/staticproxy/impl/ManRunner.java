@@ -1,6 +1,6 @@
-package proxy.impl;
+package proxy.staticproxy.impl;
 
-import proxy.Runner;
+import proxy.staticproxy.Runner;
 
 /**
  * @author YaoS
